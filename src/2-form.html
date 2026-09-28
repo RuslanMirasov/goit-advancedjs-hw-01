@@ -9,13 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>goit-advancedjs-hw-01</title>
+    <title>Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <ul class="navigation">
-      <li><a href="./1-gallery.html">Gallery</a></li>
-      <li><a href="./2-form.html">Form</a></li>
-    </ul>
+    <p><a href="./index.html" class="button go-back">Go back</a></p>
+
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      <button type="submit" class="button">Submit</button>
+    </form>
+
+    <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
